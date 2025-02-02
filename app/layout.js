@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
+import NewsLitter from "./(home-page)/(sections)/newslitter";
+import Footer from "@/components/Footer";
 
 const sary = localFont({
   src: "../public/fonts/Sary-Regular.woff",
@@ -21,6 +23,8 @@ export default function RootLayout({ children }) {
         </header>
         {children}
         <footer>
+          <NewsLitter />
+          <Footer />
         </footer>
       </body>
     </html>

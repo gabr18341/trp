@@ -8,6 +8,9 @@ import Services from './(sections)/services'
 import StepsSection from './(sections)/steps-section'
 import GetStarting from './(sections)/get-starting'
 import PartnerSection from './(sections)/partner-section'
+import QuestionSection from './(sections)/question'
+import ContactSection from './(sections)/contact-section'
+import NewsLitter from './(sections)/newslitter'
 
 const HomePage = () => {
   return (
@@ -21,6 +24,8 @@ const HomePage = () => {
         <StepsSection />
         <GetStarting />
         <PartnerSection />
+        <QuestionSection />
+        <ContactSection />
     </div>
   )
 }
