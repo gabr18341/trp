@@ -4,7 +4,7 @@ import React from 'react'
 const GetStarting = () => {
   return (
     <section className='get-starting px-8' > 
-        <div className="container flex justify-center gap-4 items-center">
+        <div className="container flex justify-center gap-4 items-center flex-col sm:flex-row ">
             <div className="image-box">
                 <img src="/img/pages/home/mobile-ui-screens.png" alt="" />
             </div>

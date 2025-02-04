@@ -3,7 +3,7 @@ import React from 'react'
 const NewsLitter = () => {
   return (
     <section className='news-litter py-10 px-8'>
-        <div className="container flex justify-between items-center">
+        <div className="container flex justify-between items-center flex-col md:flex-row">
             <div className="box-right flex-grow flex items-center gap-8">
                 <div className="img-box">
                     <img src="/img/icons/send_email_icon.svg" width={'50px'} height={'50px'} alt="" />

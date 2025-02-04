@@ -15,7 +15,7 @@ const Footer = () => {
                     نيسي يت أليكيوب أكس أيا كوممودو كو
                     </p>
                 </div>
-                <div className="footer-menu flex justify-between flex-grow gap-2">
+                <div className="footer-menu flex justify-between flex-grow gap-2 flex-wrap md:flex-nowrap">
                     <div className="box">
                         <h5>تواصل معنا</h5>
                         <ul>
@@ -49,8 +49,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="bottom-footer flex justify-between items-center pt-4 mt-4">
-                <p>
+            <div className="bottom-footer flex justify-between items-center pt-4 mt-4 flex-col md:flex-row gap-1 text-center">
+                <p className='text-sm md:text-lg'>
                 حقوق الملكية الفكرية 2024 جميع حقوق محفوظة لصالح تقنية تخطيط الموارد ©
                 </p>
                 <div className="social-icons">

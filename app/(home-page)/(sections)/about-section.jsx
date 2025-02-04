@@ -2,8 +2,8 @@ import React from 'react'
 const AboutSection = () => {
   return (
     <section id='about' className='about-section'>
-        <div className="container flex py-10 justify-between items-center">
-            <div className="about-content lg:pr-10">
+        <div className="container flex py-10 justify-between items-center px-8">
+            <div className="about-content">
                 <h1>ما هو نظام TRP؟</h1>
                 <p>
                 يعد TRP برنامج ERP متكامل الذي بمثابة قيادة رقمية متطورة لشركتك. <h6> تخيل لوحة تحكم مركزية تمنحك رؤية بانورامية على كافة عملياتك التشغيلية</h6> من إدارة سلسلة التوريد إلى المبيعات والتسويق والموارد البشرية. لا تقتصر TRPعلى أتمتة المهام الأساسية فحسب، بل إنه يوفر تحليلات قوية تساعدك على اتخاذ قرارات استراتيجية مستندة إلى البيانات.

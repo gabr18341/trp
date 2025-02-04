@@ -48,7 +48,7 @@ a {
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
   background-color: var(--main-color);
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
 }
 .main-btn.secondary {
   background-color: white;
@@ -87,6 +87,22 @@ header .menu-header li a.active::after {
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-bottom: 6px solid transparent;
+}
+
+header .head-nav-mobile 
+header .menu-icon {
+  display: none;
+}
+header .head-nav-mobile button {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 0.2rem;
+  color: white;
 }
 
 /* hero section ------------------------------------------------ */
@@ -525,10 +541,7 @@ text-align: center;
   scrollbar-width: none; /* لإخفاء الشريط في فايرفوكس */
   -ms-overflow-style: none; 
 }
-.services-section .overflow-x-scroll::-webkit-scrollbar {
-  display: none; /* لإخفاء الشريط في كروم وسفاري */
-  opacity: 0;
-}
+
 .services-section .service-cards .ser-card {
   background-color: white;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);

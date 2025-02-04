@@ -10,8 +10,7 @@ import GetStarting from './(sections)/get-starting'
 import PartnerSection from './(sections)/partner-section'
 import QuestionSection from './(sections)/question'
 import ContactSection from './(sections)/contact-section'
-import NewsLitter from './(sections)/newslitter'
-
+import "./responsive-home.css"
 const HomePage = () => {
   return (
     <div>

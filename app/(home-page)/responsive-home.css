@@ -1,0 +1,441 @@
+/* lg screen ********* */
+@media (max-width: 1054px) {
+    .main-btn {
+        font-size: 16px;
+        padding: .2rem 1rem;
+    }
+    header .menu-header li a {
+        font-size: 16px;
+    }
+    header .menu-header li a.active {
+        font-size: 16px;
+        
+    }
+    header .head-nav-mobile {
+        display: flex;
+    }
+    header .nav-box {
+        width: 277px;
+        max-width: 100vw;
+        background-color: #0B3041;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem 3rem;
+        position: fixed;
+        top: 0;
+        right: -280px;
+        height: 100vh;
+        z-index: 999;
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -ms-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    header .nav-box.open {
+        right: 0;
+    }
+    header .nav-box .auth-btns {
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0;
+    }
+    header .nav-box ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    header .nav-box ul li a {
+        color: white;
+    }
+    header .menu-header li a.active::after {
+        border-top-color: white;
+    }
+    header .container .header-container {
+        justify-content: center;
+        position: relative;
+    }
+    header .container .header-container .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY();
+        -moz-transform: translateY();
+        -ms-transform: translateY();
+        -o-transform: translateY();
+}
+    /* hero section */
+    /* about section */
+    .about-section .about-content h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .about-section .about-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .about-section img {
+        margin-right: 0;
+    }
+    /* defines us * */
+    .defines-us .card-container .box {
+        height: 270px;
+    }
+    .defines-us .card-container h6 {
+        font-size: 20px;
+    }
+    .defines-us .card-container p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* .our-business */
+    .our-business h6 ,
+    .our-business h5{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .our-business p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .our-business .box-icons .box-icon.top-right ,
+    .our-business .box-icons .box-icon.top-left{
+        top: 2%;
+    }
+    .our-business .box-icons .box-icon.bottom-right,
+    .our-business .box-icons .box-icon.bottom-left {
+        bottom: 2%;
+    }
+    .our-business .slider-container .center-box h6 {
+        font-size: 25px;
+    }
+    .our-business .slider-container .center-box p {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 400px;
+    }
+    .services-section .section-title h5 {
+        font-size: 30px;
+    }
+    .services-section .section-title p {
+        font-size: 20px;
+    }
+    /* services ****** */
+    .services-section .service-cards .ser-card .card-head {
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+    .services-section .service-cards .ser-card .card-head h6 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .services-section .service-cards .ser-card .card-head p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .services-section .service-cards .ser-card .card-body .list-item .item-content p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .services-section .service-cards .ser-card .card-body .list-item .item-number {
+        font-size: 16px;
+        width: 40px;
+        height: 40px;
+    }
+    .services-section .service-cards .ser-card {
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        width: 400px;
+}
+.steps-section .carousel-item .carousel-content h5
+,.steps-section .carousel-item .carousel-img h5 {
+    font-size: 25px;
+}
+.steps-section .carousel-item .carousel-content p {
+    font-size: 20px;
+}
+.get-starting .content-box h4 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.get-starting .content-box p {
+    font-size: 24px;
+    line-height: 35px;
+}
+.partners-section h6 {
+    font-size: 30px;
+}
+.question-section h5 {
+    font-size: 30px;
+}
+.contact-section .contact-content h6 {
+    font-size: 30px;
+}
+.contact-section .contact-content p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.news-litter .box-right .img-box {
+    width: 70px;
+    height: 70px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.news-litter .box-right img {
+    width: 40px;
+}
+footer h5 {
+    font-size: 24px;
+}
+footer p {
+    font-size: 14px;
+}
+footer .top-footer .content {
+    width: 400px;
+}
+footer .top-footer img {
+    width: 200px;
+}
+}
+
+@media (max-width: 769px) {
+    main {
+        overflow-x: hidden;
+    }
+    .about-section .container {
+        flex-direction: column;
+    }
+    .our-business .slider-container {
+        height: 580px;
+        margin-top: 20px;
+        border-right: 50px solid transparent;
+        border-left: 50px solid transparent;
+        border-top: 80px solid #ececec;
+        border-bottom: 80px solid #ececec;
+      }
+      .our-business .box-icons .box-icon {
+        width: 85px;
+        height: 85px;
+      }
+      .our-business .box-icons .box-icon.top-right {
+        left: 1%;
+        right: auto;
+      }
+      .our-business .box-icons .box-icon.center-right {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        top: -84px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+.our-business .box-icons .box-icon.bottom-right {
+    bottom: auto;
+    top: 2%;
+}
+.our-business .box-icons .box-icon.bottom-left {
+    right: 1%;
+    bottom: 1%;
+    left: auto;
+}
+.our-business .box-icons .box-icon.center-left {
+    bottom: -84px;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.our-business .box-icons .box-icon.top-left {
+    bottom: 1%;
+    top: auto;
+}
+.our-business .slider-container .center-box img {
+    height: 350px;
+}
+.our-business .slider-container .center-box .slider-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    top: 125%;
+}
+.our-business {
+    padding-bottom: 200px;
+}
+.our-business .box-icons .box-icon.active {
+    box-shadow: none !important;
+}
+.numbers-section .card-number {
+    width: 280px;
+}
+.numbers-section .card-number .img-box {
+    width: 70px;
+    height: 70px;
+}
+.numbers-section .card-number h6 {
+    font-size: 30px;
+    line-height: 45px;
+}
+.steps-section .carousel-item .carousel-content .step-item {
+    width: 44px;
+    height: 44px;
+}
+.news-litter .box-right p {
+    font-size: 16px;
+}
+.news-litter .box-right p.font-bold {
+    font-size: 20px;
+}
+.news-litter .box-right .img-box {
+    width: 60px;
+    height: 60px;
+}
+.news-litter .box-left .input-box button {
+    width: 48px;
+    height: 43px;
+}
+footer .top-footer {
+    flex-direction: column;
+}
+footer .top-footer .content {
+    width: 100%;
+    max-width: 100%;
+}
+.get-starting .image-box img {
+    height: 350px;
+    width: auto;
+}
+.get-starting .content-box img {
+    height: 50px;
+}
+.get-starting .content-box {
+    margin-bottom: 30px;
+}
+.steps-section .carousel-item .carousel-content h5 {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: .5rem;
+}
+.steps-section .carousel-item .carousel-content p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+}
+
+@media (max-width: 569px) {
+    .numbers-section .card-number {
+        width: 48%;
+    }
+    .numbers-section .card-number .img-box {
+        width: 60px;
+        height: 60px;
+    }
+    .numbers-section .card-number h6 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .services-section .section-title h5 {
+        line-height: 40px;
+        font-size: 25px;
+    }
+    .our-business h6, .our-business h5 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .defines-us .container-sec > h5 {
+        font-size: 30px;
+    }
+    .defines-us .card-container h6 {
+        line-height: 20px;
+    }
+    .defines-us .card-container .box {
+        height: 215px;
+    }
+    .about-section .about-content p h6,
+    .about-section .about-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .hero-section .slider-item h4 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .hero-section .slider-item p {
+        font-size: 20px;
+    }
+    .defines-us {
+        padding-top: 0;
+    }
+    .defines-us .card-container {
+        margin-top: 0;
+    }
+    .our-business .slider-container {
+        height: 430px;
+        margin-top: 20px;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+        border-top: 50px solid #ececec;
+        border-bottom: 50px solid #ececec;
+    }
+    .our-business .slider-container .center-box img {
+        height: 230px;
+    }
+    .our-business .box-icons .box-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .our-business .box-icons .box-icon.center-right {
+        top: -55px;
+    }
+    .our-business .box-icons .box-icon.center-left {
+        bottom: -55px;
+    }
+    .our-business .slider-container .center-box .slider-content {
+        top: 120%;
+        width: 100%;
+    }
+    .steps-section .carousel-item .carousel-img h5 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .numbers-section .card-number h6 {
+        line-height: 20px;
+    }
+    .numbers-section .card-number p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .numbers-section .card-number .img-box {
+        width: 30px;
+        height: 30px;
+    }
+    .numbers-section .card-number .img-box img {
+        width: 20px;
+        height: 20px;
+    }
+    .contact-section {
+        background-position: left top;
+    }
+}

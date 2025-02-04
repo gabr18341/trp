@@ -38,7 +38,7 @@ const HeroSection = () => {
                   <img src={item.img} alt={item.title} />
                   <div dir="rtl" className=" w-full relative z-10 flex items-center h-screen container px-8">
                     <div className=" ">
-                      <h4 className="text-4xl font-semibold">{item.title}</h4>
+                      <h4 className="">{item.title}</h4>
                       <p>{item.description}</p>
                       <button className="main-btn">ابدأ خطتك الان</button>
                     </div>

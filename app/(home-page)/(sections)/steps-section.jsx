@@ -14,8 +14,8 @@ const StepsSection = () => {
         <div dir='ltr' className="container px-8 ">
         <Carousel>
             <CarouselContent >
-                <CarouselItem  className="h-[350px]">
-                    <div dir='rtl' className="carousel-item flex justify-center gap-4 items-center ">
+                <CarouselItem  className="md:h-[350px] h-[450px]">
+                    <div dir='rtl' className="carousel-item flex justify-center gap-4 items-center flex-col sm:flex-row ">
                         <div className="carousel-content p-4">
                             <Link className='main-btn' href="#">
                             ابدأ الان
@@ -39,8 +39,8 @@ const StepsSection = () => {
                         </div>
                     </div>
                 </CarouselItem>
-                <CarouselItem  className="h-[350px]">
-                    <div dir='rtl' className="carousel-item flex justify-center gap-4 items-center ">
+                <CarouselItem  className="md:h-[350px] h-[450px]">
+                    <div dir='rtl' className="carousel-item flex justify-center gap-4 items-center flex-col sm:flex-row ">
                         <div className="carousel-content p-4">
                             <Link className='main-btn' href="#">
                             ابدأ الان
@@ -65,8 +65,8 @@ const StepsSection = () => {
                     </div>
                 </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious className=" left-1 border-white " />
-            <CarouselNext className=" border-white  right-1" />
+            <CarouselPrevious className=" left-[-30px] md:left-1 border-white " />
+            <CarouselNext className=" border-white right-[-30px]  md:right-1" />
         </Carousel>
 
         </div>

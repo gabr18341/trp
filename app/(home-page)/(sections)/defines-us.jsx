@@ -14,7 +14,7 @@ const DefinesUs = () => {
         <h5>ما يميزنا</h5>
         <div className="card-container mt-10">
           <div className="flex flex-wrap justify-between mt-5">
-            <div className="mt-10 w-1/4 ">
+            <div className="mt-10 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
               <Card className="box">
                 <CardHeader>
                   <CardTitle>
@@ -47,7 +47,7 @@ const DefinesUs = () => {
                 </CardContent>
               </Card>
             </div>
-            <div className="w-1/4 ">
+            <div className="  w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
               <Card className=" box">
                 <CardHeader>
                   <CardTitle>
@@ -79,7 +79,7 @@ const DefinesUs = () => {
                 </CardContent>
               </Card>
             </div>
-            <div className="mt-10 w-1/4 ">
+            <div className="lg:mt-10  w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
               <Card className=" box">
                 <CardHeader>
                   <CardTitle>
@@ -111,7 +111,7 @@ const DefinesUs = () => {
                 </CardContent>
               </Card>
             </div>
-            <div className="w-1/4 ">
+            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
               <Card className=" box">
                 <CardHeader>
                   <CardTitle>
