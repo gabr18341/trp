@@ -214,6 +214,9 @@ footer .top-footer img {
     main {
         overflow-x: hidden;
     }
+    .menu-icon {
+        display: block;
+    }
     .about-section .container {
         flex-direction: column;
     }

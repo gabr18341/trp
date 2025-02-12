@@ -13,7 +13,7 @@ const Header = () => {
     { title: "خطط", link: "/services" },
     { title: "تطبيقات", link: "/application" },
     { title: "تواصل معنا", link: "/contact" },
-    { title: "الدعم", link: "/contact" },
+    { title: "الدعم", link: "/support" },
   ];
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -29,7 +29,7 @@ const Header = () => {
           <nav>
             <ul className="flex gap-3 items-center menu-header">
               {navItems.map((item) => (
-                <li key={item.title}>
+                <li key={item.title} onClick={() => setMenuOpen(false)} >
                   <Link
                     className={pathname === item.link ? "active" : ""}
                     href={item.link}
@@ -41,17 +41,17 @@ const Header = () => {
             </ul>
           </nav>
           <div className="auth-btns mr-5 flex gap-3">
-            <Link className="main-btn" href="/login">
+            <Link onClick={() => setMenuOpen(false)} className="main-btn" href="/login">
               تسجيل الدخول
             </Link>
-            <Link className="main-btn secondary" href="/register">
+            <Link onClick={() => setMenuOpen(false)} className="main-btn secondary" href="/register">
               اشترك الآن
             </Link>
           </div>
         </div>
         <div className="logo-box">
           <Link href="/">
-            <img className="w-32" src="/img/TRP Logo.png" alt="trp - logo" />
+            <img className="w-32" src={`/img/TRP Logo${pathname !== '/' ? '2' : ''}.png`} alt="trp - logo" />
           </Link>
         </div>
         <div className="menu-icon cursor-pointer" onClick={() => setMenuOpen(true)} >

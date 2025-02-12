@@ -105,6 +105,13 @@ header .head-nav-mobile button {
   color: white;
 }
 
+.menu-icon {
+  display: none;
+}
+.head-nav-mobile {
+  display: none;
+}
+
 /* hero section ------------------------------------------------ */
 .hero-section .slider-item {
   position: relative;
@@ -917,4 +924,11 @@ footer .social-icons a {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   background-color: white;
+}
+
+/* pages ******************************************************** */
+.main-section {
+  background-image: url('/img/pages/login/main_bg.svg');
+  background-size: cover;
+  background-position: bottom left;
 }
