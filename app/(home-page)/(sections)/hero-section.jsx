@@ -13,19 +13,19 @@ const HeroSection = () => {
         id: 1,
         title: "تقنية تخطيط الموارد",
         description: "لإدارة موارد مؤسستك بشكل متكامل",
-        img: "https://s3-alpha-sig.figma.com/img/2f11/04e4/05616a55ddcf4be4aa4f1d1f6a96c582?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iX2tC9g1DdTISKkwKzumHlQJQKD9qh1UHTTThs7NAbOmAMggBjgucrH0lTzzRH4TAepZKjLQOIUwA27tk7TyyKoTQxlW66mQlThEw6CC2PgbXpg99NCiRUg5Fz~JMLTrAt2n82P6Tfz8zFpM9dcQkuITiU9FFmIJ2Q-JukG9OpQ~GLt6FIZBfU47uxQLihu3DwicOEl6SQaNEoKUMRWLn9nNXYoLs52z77TvFI4ii6k-~gMjl619~SYP0F9mHPE0F4v3Y5X4CAAPvS-Roz6OKRxogLd6Wkms7bTazRl7awSuZOULBERgEslycyfTA-HoatPssTZPIUxrCbd8NAxDIQ__",
+        img: "/img/pages/active.png",
       },
       {
         id: 2,
         title: "تقنية تخطيط الموارد",
         description: "لإدارة موارد مؤسستك بشكل متكامل",
-        img: "https://s3-alpha-sig.figma.com/img/2f11/04e4/05616a55ddcf4be4aa4f1d1f6a96c582?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iX2tC9g1DdTISKkwKzumHlQJQKD9qh1UHTTThs7NAbOmAMggBjgucrH0lTzzRH4TAepZKjLQOIUwA27tk7TyyKoTQxlW66mQlThEw6CC2PgbXpg99NCiRUg5Fz~JMLTrAt2n82P6Tfz8zFpM9dcQkuITiU9FFmIJ2Q-JukG9OpQ~GLt6FIZBfU47uxQLihu3DwicOEl6SQaNEoKUMRWLn9nNXYoLs52z77TvFI4ii6k-~gMjl619~SYP0F9mHPE0F4v3Y5X4CAAPvS-Roz6OKRxogLd6Wkms7bTazRl7awSuZOULBERgEslycyfTA-HoatPssTZPIUxrCbd8NAxDIQ__",
+        img: "/img/pages/active.png",
       },
       {
         id: 2,
         title: "تقنية تخطيط الموارد",
         description: "لإدارة موارد مؤسستك بشكل متكامل",
-        img: "https://s3-alpha-sig.figma.com/img/2f11/04e4/05616a55ddcf4be4aa4f1d1f6a96c582?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iX2tC9g1DdTISKkwKzumHlQJQKD9qh1UHTTThs7NAbOmAMggBjgucrH0lTzzRH4TAepZKjLQOIUwA27tk7TyyKoTQxlW66mQlThEw6CC2PgbXpg99NCiRUg5Fz~JMLTrAt2n82P6Tfz8zFpM9dcQkuITiU9FFmIJ2Q-JukG9OpQ~GLt6FIZBfU47uxQLihu3DwicOEl6SQaNEoKUMRWLn9nNXYoLs52z77TvFI4ii6k-~gMjl619~SYP0F9mHPE0F4v3Y5X4CAAPvS-Roz6OKRxogLd6Wkms7bTazRl7awSuZOULBERgEslycyfTA-HoatPssTZPIUxrCbd8NAxDIQ__",
+        img: "/img/pages/active.png",
       },
     ]
     return (
